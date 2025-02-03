@@ -1,0 +1,148 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  #my-work {
+    margin: 60px 0;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #222;
+  }
+  
+  .profile-img {
+    width: 130px;
+    border-radius: 10%;
+    border: 4px solid #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .work-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin: 30px auto;
+    padding: 0 20px;
+  }
+  
+  .work-item {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+    background: linear-gradient(135deg, #ffffff, #f2f2f2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .work-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  }
+  
+  .work-item img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .work-item p {
+    margin: 12px 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: #444;
+  }
+  
+  
+  #see-more {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 24px;
+    font-size: 17px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  #see-more:hover {
+    background-color: #000000;
+    transform: scale(1.05);
+  }
+  
+  #schedule-meeting {
+    background: linear-gradient(135deg, #111, #222);
+    padding: 40px 20px;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 12px;
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  #schedule-meeting h2 {
+    color: #f8f9fa;
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+  
+  #meeting-form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  #meeting-form label {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 6px;
+    font-weight: 600;
+  }
+  
+  #meeting-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    border: 2px solid #444;
+    border-radius: 6px;
+    background: #333;
+    color: #fff;
+  }
+  
+  #meeting-form input:focus {
+    border-color: #272727;
+    outline: none;
+  }
+  
+  #meeting-form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+  }
+  
+  #meeting-form button:hover {
+    background-color: #070707;
+  }
+  
