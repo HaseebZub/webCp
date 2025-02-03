@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Basic Website</title>
+  <link rel="stylesheet" href="basic.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Website</h1>
+  </header>
+  <main>
+
+    <section id="about-me">
+      <h2>About Me</h2>
+      <div class="profile">
+        <img src="me.jpg" alt="Abdul Haseeb Zubair" class="profile-img">
+        <div class="intro">
+          <p>Hi, I'm <strong>Abdul Haseeb Zubair</strong>!</p>
+          <p>I am deeply passionate about UI/UX design, where aesthetics meet 
+            functionality to create seamless digital experiences. My focus is on crafting intuitive, user-friendly 
+            interfaces that not only look elegant but also enhance usability. I believe in a design approach that prioritizes clarity, 
+            accessibility, and emotional connection, ensuring every interaction feels natural and engaging.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="my-work">
+      <h2>My Work</h2>
+      <div class="work-grid">
+        <div class="work-item">
+          <img src="gym app poster.png" alt="Work 1">
+          <p>Project 1: Redesigned a mobile app for better user engagement.</p>
+        </div>
+        <div class="work-item">
+          <img src="art ui poster.png" alt="Work 2">
+          <p>Project 2: Created a responsive app for a local business.</p>
+        </div>
+        <div class="work-item">
+          <img src="profile app poster.png" alt="Work 3">
+          <p>Project 3: Designed a profile app for user.</p>
+        </div>
+      </div>
+      <a href="workPage.html">
+        <button id="see-more">See More</button>
+      </a>
+      
+    </section>
+
+    <section id="schedule-meeting">
+      <h2>Schedule a Meeting with Me</h2>
+      <form id="meeting-form">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="date">Preferred Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="time">Preferred Time:</label>
+        <input type="time" id="time" name="time" required>
+
+        <button type="submit">Schedule Meeting</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 My Website</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
